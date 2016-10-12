@@ -1,0 +1,35 @@
+#board {
+
+  height: 600px;
+  width: 600px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  margin-left: 100px;
+}
+    /*flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 50px;
+    max-height: 300px;
+    display: inline-block;
+    align-content: space-between;
+    border: 1px solid black;
+    margin-right: 20px;
+}*/
+
+.square {
+  width: 30%;
+  height: 1%;
+  padding: 50px 0;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 36px;
+
+}
+
+#turn
